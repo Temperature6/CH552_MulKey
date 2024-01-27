@@ -1,0 +1,256 @@
+{
+  "uuid": "ada844c1dcf449dc0954c93d7995f92d",
+  "path": "Offline/CH552_MulKey",
+  "name": "CH552_MulKey",
+  "content": "",
+  "created_at": "2024-01-27 15:42:08",
+  "updated_at": "2024-01-27 16:02:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "19460191c93ec5b677fcfc9bce962127",
+      "title": "原理图",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5452e92f9c0847a2a98f4cc19ad37c15": 1,
+        "253ff9e37bbb4c3081915352d3b6344b": 3,
+        "078df3acb5de4d10a73441527b837b34": 1,
+        "48946450ca5d49509a2d35b852829461": 3,
+        "dbf7903f57ef4dda848f1b4e877508f5": 2,
+        "1c34bad86af64d97be68147b5c75a8f8": 4,
+        "ef5bd7f649df41b5b6f20d228906a3b8": 1,
+        "6c78b5029f864247b49a4e2d5fb9e94e": 1,
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "f1cb5c3b9372430194466cbb9f537f0c": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1uF",
+          3,
+          "C0603",
+          "C1,C2,C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0201_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "253ff9e37bbb4c3081915352d3b6344b"
+          }
+        ],
+        [
+          "WS2812B",
+          3,
+          "LED-SMD_4P-L5.0-W5.0-TL",
+          "LED1,LED2,LED3",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Worldsemi",
+            "Manufacturer Part": "WS2812B",
+            "Contributor": "LCSC",
+            "Supplier Part": "C114585",
+            "spiceSymbolName": "WS2812B",
+            "puuid": "cd48641628d44d2eb34ad00d857b0a99",
+            "uuid": "48946450ca5d49509a2d35b852829461"
+          }
+        ],
+        [
+          "M2",
+          4,
+          "M2",
+          "M1,M2,M3,M4",
+          {
+            "Manufacturer": "Harold",
+            "Manufacturer Part": "Harold",
+            "Supplier": "Harold",
+            "Supplier Part": "M2螺柱",
+            "link": "",
+            "Contributor": "Yeharold",
+            "spiceSymbolName": "M2",
+            "puuid": "eb78a6f4bc9345d5a3a3a95d99c9aa32",
+            "uuid": "1c34bad86af64d97be68147b5c75a8f8"
+          }
+        ],
+        [
+          "5.1k",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_EU",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "100",
+          1,
+          "RES-ARRAY-SMD_0603-8P-L3.2-W1.6",
+          "RN1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2769791",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "4D03WAJ0914T5E",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "4D03WAJ0914T5E",
+            "puuid": "a95ca9509d534e07826d0dbe852b47bb",
+            "uuid": "dbf7903f57ef4dda848f1b4e877508f5"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "RES-ARRAY-SMD_0603-8P-L3.2-W1.6",
+          "RN2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C2769791",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "4D03WAJ0914T5E",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "4D03WAJ0914T5E",
+            "puuid": "a95ca9509d534e07826d0dbe852b47bb",
+            "uuid": "dbf7903f57ef4dda848f1b4e877508f5"
+          }
+        ],
+        [
+          "EC11",
+          1,
+          "SW-无固定脚",
+          "SW1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C255515",
+            "Manufacturer": "ALPS Electric",
+            "Manufacturer Part": "EC11E18244A5",
+            "Contributor": "LCSC",
+            "spiceSymbolName": "EC11E18244A5",
+            "puuid": "1fe3812c0c98478fbba5ccf1578209e2",
+            "uuid": "078df3acb5de4d10a73441527b837b34"
+          }
+        ],
+        [
+          "轴座",
+          3,
+          "轴座",
+          "SW3,SW4,SW5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "fengmoyiye",
+            "spiceSymbolName": "轴座",
+            "puuid": "4948d7a949be46a994c159c98f3991e2",
+            "uuid": "f1cb5c3b9372430194466cbb9f537f0c"
+          }
+        ],
+        [
+          "两脚小龟 3*4*2",
+          1,
+          "SW-SMD_L4.0-W2.9-LS5.0",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2837315",
+            "Manufacturer": "null",
+            "Manufacturer Part": "两脚小龟 3*4*2",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://so.szlcsc.com/global.html?k=C2837315&ref=editor",
+            "spiceSymbolName": "两脚小龟 3*4*2",
+            "puuid": "54b9ab7aebe5456bbc9f2879b8d360ff",
+            "uuid": "ef5bd7f649df41b5b6f20d228906a3b8"
+          }
+        ],
+        [
+          "CH552G",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WCH",
+            "Manufacturer Part": "CH552G",
+            "Supplier Part": "C111292",
+            "SMT Type": "Extend",
+            "JLCPCB SMD": "Yes",
+            "spiceSymbolName": "CH552G",
+            "puuid": "5b77c8f94739414cb5c7ee7837fc6959",
+            "uuid": "5452e92f9c0847a2a98f4cc19ad37c15"
+          }
+        ],
+        [
+          "TYPE-C 16P QTWT",
+          1,
+          "USB-TYPE-C-SMD_TYPE-C-16P-QTWT",
+          "USB1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5187472",
+            "Manufacturer": "SHOU HAN(首韩)",
+            "Manufacturer Part": "TYPE-C 16P QTWT",
+            "Contributor": "lcsc",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TYPE-C 16P QTWT",
+            "puuid": "72af86f709ad4dd7b8d89695906e6b29",
+            "uuid": "6c78b5029f864247b49a4e2d5fb9e94e"
+          }
+        ]
+      ],
+      "updateTime": 1706342562,
+      "createTime": 1705638247,
+      "histories": [],
+      "created_at": "2024-01-19 12:24:07",
+      "updated_at": "2024-01-27 16:02:42"
+    },
+    {
+      "uuid": "8e7b990c844a606b8e23a74b738eeb88",
+      "title": "PCB",
+      "filename": "PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1706341356,
+      "createTime": 1705638042,
+      "histories": [],
+      "created_at": "2024-01-19 12:20:42",
+      "updated_at": "2024-01-27 15:42:36",
+      "components": {
+        "54b9ab7aebe5456bbc9f2879b8d360ff": 1,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "72af86f709ad4dd7b8d89695906e6b29": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 3,
+        "a95ca9509d534e07826d0dbe852b47bb": 2,
+        "5b77c8f94739414cb5c7ee7837fc6959": 1,
+        "4948d7a949be46a994c159c98f3991e2": 3,
+        "cd48641628d44d2eb34ad00d857b0a99": 3,
+        "eb78a6f4bc9345d5a3a3a95d99c9aa32": 4,
+        "1fe3812c0c98478fbba5ccf1578209e2": 1
+      }
+    }
+  ],
+  "sort": [],
+  "title": "CH552_MulKey",
+  "foldername": "CH552_MulKey",
+  "schfilename": "CH552_MulKey.json",
+  "schfilemtime": 1706342562026
+}
